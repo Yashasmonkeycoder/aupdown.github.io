@@ -8,8 +8,8 @@
         height: 200px;
       }
       #borderb{
-        width:200px;
-        height: 20px;
+        width:400px;
+        height: 40px;
         position: fixed;
         left:27%;
         top:48%;
@@ -21,19 +21,19 @@
         position:fixed;
         top:65%;
         display: none;
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
       }
       #plusy{
         position:fixed;
         top:65%;
         display: none;
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
       }
       #borderc{
-        width:200px;
-        height: 20px;
+        width:400px;
+        height: 40px;
         position: fixed;
         left:28%;
         top:48.5%;
@@ -50,12 +50,12 @@
     </style>
   </head>
   <body>
-    <label>Max Level:</label><input placeholder="Your num in int form" type="number" id="inputa">
-    <button id="submita" onclick="Gotnum()">Submit</button>
+    <label style="font-size:70px;>Max Level:</label><input placeholder="Your num in int form" type="number" id="inputa" style="width:120px; height:70px;">
+    <button id="submita" onclick="Gotnum()" style="width:120px; height:80px;">Submit</button>
     <label style="position: fixed; top:48%; left:15%; font-size:25px;" id="fun">🔇</label><span id="borderb"></span>
     <span id="borderc"></span><h3 id="borderd"></h3>
     <button id="plusx" onclick="plus()" style="background-color:#01ea34; left:20%;">+</button><h3>        </h3><button id="plusy" onclick="minus()" style="background-color:#ff0000; left:80%;">-</button>
-    <button style="width:60px; height:40px; background-color:#9a0fd0; color:white; position: fixed; top:80%; left:80%;" onclick="alert("you have to enable your mobile data")"><a href="https://raw.githubusercontent.com/Yashasmonkeycoder/rawa.github.io/main/untitled.html" style="text-decoration:none;">code--></a></button>
+    <button style="width:120px; height:80px; background-color:#9a0fd0; color:white; position: fixed; top:80%; left:80%;" onclick="alert("you have to enable your mobile data")"><a href="https://raw.githubusercontent.com/Yashasmonkeycoder/rawa.github.io/main/untitled.html" style="text-decoration:none;">code--></a></button>
   </body>
 </html>
 <script>
@@ -75,7 +75,7 @@
       alert("This assigning bar is only made for int numbers, so please input int numbers (ex:- natural numbers)")
       inptu-inptu;
     }
-    widht = 200/inptu
+    widht = 400/inptu
     document.getElementById("borderd").innerHTML=cont+"/"+inptu;
     document.getElementById("plusx").style.display="block"
     document.getElementById("plusy").style.display="block"
